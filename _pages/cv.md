@@ -9,10 +9,10 @@ redirect_from:
 
 # Curriculum Vitae
 
-- **[Download CV (PDF)]({{ site.baseurl }}/files/Debatri_Chattopadhyay_CV.pdf)**
+- **[Download CV (PDF)]({{ site.baseurl }}/files/Resume.pdf)**
 
 <iframe
-  src="{{ site.baseurl }}/files/Debatri_Chattopadhyay_CV.pdf"
+  src="{{ site.baseurl }}/files/Resume.pdf"
   width="100%"
   height="1000px"
   style="border:0;">
