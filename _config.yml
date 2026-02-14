@@ -30,7 +30,7 @@ repository  : "debatric/debatrich.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "deb.png"
   name             : "Debatri"
   pronouns         : "she/her"  
   bio              : "Astrophysicist studying black holes and neutron stars, dancing around the globe in spare time!"
