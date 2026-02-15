@@ -81,14 +81,15 @@ a:hover {
   text-decoration: underline;
 }
 
-/* 5) FONT (Inter) – if you add the head include below */
+/* Body text: clean & readable */
 body, button, input, select, textarea {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  letter-spacing: 0.1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, -apple-system,
+               BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
 }
 
+/* Headings/nav: modern */
 h1, h2, h3, h4, .site-title, .masthead__menu-item {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  letter-spacing: 0.2px;
 }
