@@ -37,5 +37,4 @@ Books are the constant thread: **Bengali and English classics**, **sci-fi**, and
 </div>
 
 <p class="note">
-If you want captions under each photo, tell me what each image is (place/event) and I’ll format it nicely.
 </p>
