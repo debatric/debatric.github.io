@@ -5,9 +5,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
+
 url: "https://debatric.github.io"
 baseurl: "/debatrich.github.io"
 repository: "debatric/debatrich.github.io"
+
 title: "Debatri Chattopadhyay"
 name: "Debatri Chattopadhyay"
 description: "Theoretical & computational astrophysicist | gravitational waves, compact binaries, pulsars"
