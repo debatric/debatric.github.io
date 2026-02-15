@@ -15,7 +15,7 @@ I am strongly committed to teaching and mentoring students from diverse backgrou
 - **Massive black holes:** intermediate-mass black holes and their signatures in **globular clusters** and **nuclear star clusters**
 - **Open, reusable tools:** code + data products that enable reproducible population studies
 
-### Recognition, invited talks & professional service
+## Recognition, invited talks & professional service
 My contributions have been recognized with several distinctions and invitations, including:
 - **2020 HDR Outstanding Article Award** (PhD) and commendations for postgraduate awards at Swinburne University of Technology  
 - Nominations for major thesis prizes (including the **Charlene Heisler Prize** and **Iain Wallace Research Medal**)  
