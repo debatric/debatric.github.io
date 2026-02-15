@@ -257,8 +257,11 @@ a:focus {
 .author__urls i.fa-researchgate,
 .author__urls i.fab.fa-researchgate { color: #00CCBB !important; }
 
-.author__urls i.fa-envelope,
-.author__urls i.fas.fa-envelope { color: #FF8B9D !important; } /* warm */
+.author__urls i.fa-envelope-open,
+.author__urls i.fas.fa-envelope-open,
+.author__urls i.fa-envelope-open-text,
+.author__urls i.fas.fa-envelope-open-text { color: #FF8B9D !important; }
+
 
 .author__urls i.fa-arxiv,
 .author__urls i.ai.ai-arxiv { color: #B31B1B !important; } /* arXiv maroon */
