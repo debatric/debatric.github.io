@@ -5,15 +5,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
+url: "https://debatric.github.io"
+baseurl: "/debatrich.github.io"
+repository: "debatric/debatrich.github.io"
+title: "Debatri Chattopadhyay"
+name: "Debatri Chattopadhyay"
+description: "Theoretical & computational astrophysicist | gravitational waves, compact binaries, pulsars"
 
 # Basic Site Settings
 locale                   : "en-US"
-title       : "Debatri Chattopadhyay"
-name        : &name "Debatri Chattopadhyay"
-description : &description "Astrophysicist | Black Holes | Neutron Stars | Gravitational waves | Pulsars | Multi-messenger | Dancer & Globe-trotter"
-url         : https://debatric.github.io
-baseurl     : "/debatrich.github.io"   # keep this ONLY if your site is still at /debatrich.github.io/
-repository  : "debatric/debatrich.github.io"
+
 
 # site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 # title                    : "Your Name / Site Title"
