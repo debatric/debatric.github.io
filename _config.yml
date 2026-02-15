@@ -367,3 +367,14 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# _config.yml
+logo: "/images/profile.png"          # or your headshot file
+og_image: "/images/og-card.png"      # your 1200x630 share card
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/images/og-card.png"
+
