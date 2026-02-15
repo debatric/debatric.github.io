@@ -7,8 +7,8 @@
 # server process.
 
 url: "https://debatric.github.io"
-baseurl: "/debatrich.github.io"
-repository: "debatric/debatrich.github.io"
+baseurl: "/debatric.github.io"
+repository: "debatric/debatric.github.io"
 
 title: "Debatri Chattopadhyay"
 name: "Debatri Chattopadhyay"
