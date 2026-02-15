@@ -26,4 +26,42 @@ body {
 h1, h2, h3, h4, .site-title, .masthead__menu-item {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
 }
+/* 1) Put the background on <html> so it covers the full page height */
+html {
+  min-height: 100%;
+  background: url("../../images/image1.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* 2) Make body + main wrappers transparent so the html background shows through */
+body {
+  min-height: 100%;
+  background: transparent !important;
+}
+
+.initial-content,
+#main,
+.page,
+.archive,
+.sidebar,
+.page__content {
+  background: transparent !important;
+}
+
+/* 3) Add readable “glass” panels for nav/footer/content */
+.masthead,
+.page__footer {
+  background: rgba(10, 10, 14, 0.85) !important;
+  backdrop-filter: blur(6px);
+}
+
+.page__content,
+.archive__item,
+.sidebar__right,
+.author__content,
+.author__urls-wrapper {
+  background: rgba(10, 10, 14, 0.65) !important;
+  border-radius: 16px;
+  padding: 16px;
+}
 
