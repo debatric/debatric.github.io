@@ -173,31 +173,6 @@ h1, h2, h3, h4, .site-title, .masthead__menu-item {
   font-size: 0.95rem;
 }
 
-/* ===========================
-   Sidebar: bigger icons + boxy-round avatar
-   =========================== */
-
-/* Make the left profile photo rounded-rectangle (not circle) */
-.author__avatar img {
-  border-radius: 18px !important;  /* tweak: 14–24px */
-  object-fit: cover;
-  border: 2px solid rgba(255,255,255,0.25);
-}
-
-/* Bigger social icons + nicer spacing */
-.author__urls-wrapper .author__urls li {
-  margin: 0.35rem 0 !important;
-}
-
-.author__urls-wrapper .author__urls a {
-  font-size: 1rem;                 /* text size */
-}
-
-.author__urls-wrapper .author__urls i,
-.author__urls-wrapper .author__urls svg {
-  font-size: 1.25rem !important;   /* icon size */
-  width: 1.5em;                    /* keeps alignment */
-}
 
 
 
