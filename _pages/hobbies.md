@@ -10,13 +10,14 @@ redirect_from:
   - /dance-and-books/
   - /danceandbooks/
 ---
-Beyond research, life outside the "mad scientist" role is powered by rhythm, curiosity, and a stubborn refusal to fit into neat boxes.
+Beyond research, life is definitely outside the "mad scientist" stereotype. 
 
-I am **trained classical Indian dancer in Manipuri**, dance began at **age 4** and never really stopped. Rooted in the **Nāṭyaśāstra** tradition, it’s part discipline, part joy—storytelling through movement, expression, and music. It is also a quiet act of rebellion: being fully scientific *and* fully artistic, without having to choose.
+I love dancing, and I am a **trained classical Indian dancer in Manipuri**—dance began at **age 4** and never really stopped. Rooted in the **Nāṭyaśāstra** tradition, it’s part discipline, part joy: storytelling through movement, elegance, expression, and music. It is also a quiet act of rebellion—being fully scientific *and* fully artistic, without having to choose.
 
-Travel is another kind of classroom—collecting stories from cities, mountains, museums, train stations, and night markets; noticing how history, culture, and everyday life weave together in surprising ways.
+Travel is another passion for me—part history-driven curiosity, part adventure. I love slipping into new places with my eyes wide open: wandering museums and old streets, taking long train rides, getting happily lost in night markets, and listening for the stories hidden in everyday life. It’s how I discover diversity up close—how cultures carry their histories, how people live, and how unexpected connections show up when you least expect them.
 
-Books are the constant thread: **Bengali and English classics**, **sci-fi**, and **narrative non-fiction**—the kind that leaves you thinking long after the last page.
+Books were my constant companion growing up, and they remain so. I am an avid reader—**Bengali and English classics**, **sci-fi**, and **narrative non-fiction**—from **Rabindranath Tagore** to **Jules Verne**, **Charles Dickens** to the **Brontë sisters**, and from **Daphne du Maurier** and **Agatha Christie** to **Satyajit Ray**—stories that stay with you long after the last page.
+
 
 
 ---
