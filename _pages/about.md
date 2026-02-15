@@ -14,7 +14,6 @@ Curiosity and adventure are at the core of who I am. I care deeply about challen
 
 Outside of research, you’ll usually find me **dancing**, **reading novels**, or **travelling**.
 
----
 ## Beyond research: leadership, mentorship & outreach
 I’m strongly committed to mentorship, teaching, and building scientific communities. I’ve taught and tutored undergraduate physics and astronomy (with consistently excellent feedback), organized seminar series to foster departmental exchange, and served in academic leadership roles—including being elected as **Student Representative and Council Member of the Astronomical Society of Australia (ASA)**, where I advocated for student needs and implemented initiatives to improve the student experience.
 
