@@ -138,4 +138,19 @@ h1, h2, h3, h4, .site-title, .masthead__menu-item {
   padding: 0.6rem 1.1rem;
 }
 
+/* Fix weird mid-page layout on Outreach (wide embeds/images) */
+.page__content iframe,
+.page__content embed,
+.page__content object,
+.page__content img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.page__content iframe {
+  width: 100% !important;
+  border-radius: 14px;
+}
+
+
 
