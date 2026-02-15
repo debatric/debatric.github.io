@@ -11,15 +11,10 @@ I’m **Debatri Chattopadhyay**, a theoretical and computational astrophysicist 
 Outside of research, you’ll usually find me **dancing**, **reading novels**, or **travelling**.
 
 ---
+## Beyond research: leadership, mentorship & outreach
+I’m strongly committed to mentorship, teaching, and building scientific communities. I’ve taught and tutored undergraduate physics and astronomy (with consistently excellent feedback), organized seminar series to foster departmental exchange, and served in academic leadership roles—including being elected as **Student Representative and Council Member of the Astronomical Society of Australia (ASA)**, where I advocated for student needs and implemented initiatives to improve the student experience.
 
-## Research snapshot
-I study how **massive stars form, evolve, and interact in binaries**, and how these pathways lead to **compact-object mergers**. My work links the uncertain physics of **binary evolution** and **dense stellar environments** (including N-body dynamics of star clusters) to the populations observed in **gravitational-wave catalogs** and **electromagnetic surveys**.
+My work and service have been recognized through multiple honours and invitations, including the **2020 HDR Outstanding Article Award** and commendations for postgraduate awards. I’ve also contributed to the community through conference organization and invited talks, and in **2024** I had the extraordinary honour of serving as **Master of Ceremony at the 73rd Lindau Nobel Laureate Meeting**, representing the **Royal Astronomical Society**—the first time this role was offered to a young scientist.
 
-**Current themes**
-- **Compact binaries & populations:** formation channels, merger rates, and observable demographics (mass, spin, and eccentricity)
-- **Pulsars & neutron star astrophysics:** connecting radio/X-ray pulsar populations to evolutionary pathways
-- **Multi-messenger connections:** what joint GW + EM constraints reveal about compact objects
-- **Massive black holes:** intermediate-mass black holes and their signatures in **globular clusters** and **nuclear star clusters**
-- **Open, reusable tools:** code + data products that enable reproducible population studies
 
 
