@@ -8,6 +8,8 @@ author_profile: true
 ## Research snapshot
 I study how **massive stars form, evolve, and interact in binaries**, and how these pathways lead to **compact object (black hole/neutron star) mergers**. My work links uncertain binary evolution physics and **dense stellar environments** (including N-body dynamics of star clusters) to the populations observed in **gravitational wave catalogs** and **electromagnetic surveys**.
 
+I am strongly committed to teaching and mentoring students from diverse backgrounds. To date, I have co-supervised two PhD students and supervised two Master’s students, and I aim to create an engaging, supportive, and inclusive learning environment.
+
 ## Current themes
 - **Compact binaries & populations:** formation channels, merger rates, and observable demographics (mass, spin, eccentricity)
 - **Pulsars & neutron-star astrophysics:** connecting radio/X-ray pulsar populations to evolutionary pathways
@@ -21,7 +23,7 @@ My contributions have been recognized with several distinctions and invitations,
 - Nominations for major thesis prizes (including the **Charlene Heisler Prize** and **Iain Wallace Research Medal**)  
 - Scientific service including a **Scientific Organizing Committee** role for a gravitational-wave session at **National Astronomy Meeting 2023**  
 - Participation in a workshop at the **Aspen Center for Physics**  
-- Invited presentations including a **HEAD seminar at the Center for Astrophysics | Harvard & Smithsonian**  
+- Invited presentations including a **HEAD seminar at the Center for Astrophysics, Harvard & Smithsonian**  
 - Invited speaker at **King’s College London** during the **Higgs Lecture (Dame Jocelyn Bell)** and the workshop *“New Physics with Neutron Stars”*  
 - Invited talk at **IAU Symposium 398 & MODEST-25** (including proceedings contribution)  
 - Panellist on the **NSF–Simons SkAI@REACH Outreach Panel** on AI in Astrophysics (July 2025)
