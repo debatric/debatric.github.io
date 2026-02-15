@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-## Research snapshot
+## Snapshot
 I study how **massive stars form, evolve, and interact in binaries**, and how these pathways lead to **compact object (black hole/neutron star) mergers**. My work links uncertain binary evolution physics and **dense stellar environments** (including N-body dynamics of star clusters) to the populations observed in **gravitational wave catalogs** and **electromagnetic surveys**.
 
 I am strongly committed to teaching and mentoring students from diverse backgrounds. To date, I have co-supervised two PhD students and supervised two Master’s students, and I aim to create an engaging, supportive, and inclusive learning environment.
