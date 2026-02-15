@@ -27,4 +27,9 @@ My contributions have been recognized with several distinctions and invitations,
 - Panellist on the **NSF–Simons SkAI@REACH Outreach Panel** on AI in Astrophysics (July 2025)
 
 In **2024**, I had the extraordinary honour of serving as **Master of Ceremony at the 73rd Lindau Nobel Laureate Meeting**, representing the **Royal Astronomical Society**—the first time this role was offered to a young scientist. This remains one of the most meaningful moments of my career: helping shape a global scientific conversation at the highest level.
+My work and service have been recognized through multiple honours and invitations, including the **2020 HDR Outstanding Article Award** and commendations for postgraduate awards. I’ve also contributed to the community through conference organization and invited talks (refer to CV, and Outreach for YouTube/SoundCloud/KITP links).
+
+I have organized seminar series to foster departmental exchange, and served in academic leadership roles—including being elected as **Student Representative and Council Member of the Astronomical Society of Australia (ASA)**, where I advocated for student needs and implemented initiatives to improve the student experience.
+
+
 
