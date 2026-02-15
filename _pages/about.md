@@ -23,10 +23,3 @@ I study how **massive stars form, evolve, and interact in binaries**, and how th
 - **Open, reusable tools:** code + data products that enable reproducible population studies
 
 
-
-## Links
-- [CV (PDF)](/files/Resume.pdf)
-- [Publications (PDF)](/files/Publications.pdf)
-- [Google Scholar](https://scholar.google.com/citations?user=zFBgwvEAAAAJ&hl=en)
-- [NASA ADS](https://tinyurl.com/4fnfte4t)
-- [ORCID](https://orcid.org/0000-0001-5867-5033)
