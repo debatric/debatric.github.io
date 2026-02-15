@@ -1,31 +1,54 @@
 
 /* =========================================================
-   FULL-PAGE BACKGROUND + CLEAN TYPOGRAPHY (AcademicPages)
+   FULL-PAGE BACKGROUND (darkened) — CLEAN VERSION
+   Put this in _sass/_custom.scss
    ========================================================= */
 
-/* 0) Always ensure full height */
+/* Ensure full height */
 html, body {
+  min-height: 100%;
   height: 100%;
 }
 
-/* 1) Put a fixed background layer behind EVERYTHING */
+/* Let the background show through */
 body {
   margin: 0;
   background: transparent !important;
 }
 
+/* Fixed full-screen background layer */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: -9999;
 
-  /* Your background image */
   background: url("../../images/image1.png") no-repeat center center;
   background-size: cover;
 
-  /* Optional: darken slightly for readability */
-  filter: brightness(0.75) contrast(1.05);
+  /* Darken the background image */
+  filter: brightness(0.55) contrast(1.05);
+}
+
+/* Make wrappers transparent so the background is visible everywhere */
+#page-wrapper,
+.initial-content,
+#main,
+.layout--home,
+.layout--single,
+.layout--archive,
+.page,
+.page__inner-wrap,
+.page__content,
+.archive,
+.archive__item,
+.sidebar,
+.sidebar__inner,
+.author__content,
+.author__urls-wrapper,
+.masthead,
+.page__footer {
+  background: transparent !important;
 }
 
 /* 2) Kill any solid backgrounds that cover the image */
@@ -115,26 +138,4 @@ h1, h2, h3, h4, .site-title, .masthead__menu-item {
   padding: 0.6rem 1.1rem;
 }
 
-/* ========= BACKGROUND IMAGE (darkened) ========= */
-html, body {
-  min-height: 100%;
-}
 
-/* Dark overlay + background image */
-html {
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("../images/image1.png") no-repeat center center fixed;
-  background-size: cover;
-}
-
-/* Make wrappers transparent so html background shows through */
-body,
-.initial-content,
-#main,
-.page,
-.archive,
-.page__content,
-.sidebar {
-  background: transparent !important;
-}
