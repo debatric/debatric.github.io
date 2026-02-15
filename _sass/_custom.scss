@@ -1,0 +1,20 @@
+/* Full-page background image */
+body {
+  background: url("../../images/image1.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Make content readable on top of the image */
+.masthead,
+.page__footer {
+  background: rgba(15, 15, 20, 0.80) !important;
+  backdrop-filter: blur(6px);
+}
+
+.page,
+.sidebar,
+.archive,
+.page__content {
+  background: rgba(15, 15, 20, 0.72) !important;
+  border-radius: 16px;
+}
