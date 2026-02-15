@@ -174,6 +174,104 @@ h1, h2, h3, h4, .site-title, .masthead__menu-item {
 }
 
 
+/* =========================================================
+   FIX “EVERYTHING IS BLUE” + BRAND-COLORED SOCIAL ICONS
+   Paste at BOTTOM of _sass/_custom.scss
+   ========================================================= */
+
+/* 1) Global link color (stop default blue) */
+a,
+a:visited {
+  color: rgba(235, 235, 240, 0.92) !important;
+}
+a:hover,
+a:focus {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+/* 2) Top navigation links (stop blue nav) */
+.masthead a,
+.masthead a:visited,
+.masthead__menu-item a,
+.masthead__menu-item a:visited {
+  color: rgba(245, 245, 250, 0.92) !important;
+  text-decoration: none !important;
+}
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/* Optional: active tab highlight (pick a color you like) */
+.masthead__menu-item.is-active a {
+  color: #ffd166 !important; /* warm gold */
+}
+
+/* 3) Sidebar links (stop blue list) */
+.author__urls a,
+.author__urls a:visited {
+  color: rgba(235, 235, 240, 0.92) !important;
+}
+.author__urls a:hover {
+  color: #ffffff !important;
+}
+
+/* 4) Make the left icons bigger + nicer spacing */
+.author__urls li a {
+  font-size: 1.02rem;
+  line-height: 1.45;
+}
+.author__urls i,
+.author__urls .fa,
+.author__urls .fab,
+.author__urls .fas,
+.author__urls .ai {
+  font-size: 1.15rem !important;
+  width: 1.35em; /* keeps alignment */
+}
+
+/* 5) Brand colors for icons (Instagram pink, Facebook blue, etc.) */
+.author__urls i.fa-instagram,
+.author__urls i.fab.fa-instagram { color: #E1306C !important; }
+
+.author__urls i.fa-facebook,
+.author__urls i.fab.fa-facebook,
+.author__urls i.fab.fa-facebook-f { color: #1877F2 !important; }
+
+.author__urls i.fa-linkedin,
+.author__urls i.fab.fa-linkedin,
+.author__urls i.fab.fa-linkedin-in { color: #0A66C2 !important; }
+
+.author__urls i.fa-github,
+.author__urls i.fab.fa-github { color: #ffffff !important; opacity: 0.95; }
+
+.author__urls i.fa-orcid,
+.author__urls i.fab.fa-orcid,
+.author__urls i.ai.ai-orcid { color: #A6CE39 !important; }
+
+.author__urls i.fa-google-scholar,
+.author__urls i.ai.ai-google-scholar { color: #4285F4 !important; }
+
+.author__urls i.fa-researchgate,
+.author__urls i.fab.fa-researchgate { color: #00CCBB !important; }
+
+.author__urls i.fa-envelope,
+.author__urls i.fas.fa-envelope { color: #FFD166 !important; } /* warm */
+
+.author__urls i.fa-arxiv,
+.author__urls i.ai.ai-arxiv { color: #B31B1B !important; } /* arXiv maroon */
+
+/* 6) “Boxy-round” avatar (rounded square instead of circle) */
+.author__avatar img {
+  border-radius: 18px !important;
+}
+
+/* If the theme is forcing a circle crop somewhere else */
+.author__avatar {
+  border-radius: 18px !important;
+}
 
 
 
