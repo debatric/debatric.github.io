@@ -1,6 +1,5 @@
-
 /* =========================================================
-   FULL-PAGE BACKGROUND (darkened) — CLEAN VERSION
+   BACKGROUND + GLASS PANELS + FONTS (CLEAN FINAL)
    Put this in _sass/_custom.scss
    ========================================================= */
 
@@ -10,13 +9,12 @@ html, body {
   height: 100%;
 }
 
-/* Let the background show through */
+/* Background image layer */
 body {
   margin: 0;
   background: transparent !important;
 }
 
-/* Fixed full-screen background layer */
 body::before {
   content: "";
   position: fixed;
@@ -26,11 +24,11 @@ body::before {
   background: url("../../images/image1.png") no-repeat center center;
   background-size: cover;
 
-  /* Darken the background image */
+  /* Darken background */
   filter: brightness(0.55) contrast(1.05);
 }
 
-/* Make wrappers transparent so the background is visible everywhere */
+/* Make page wrappers transparent so background shows through */
 #page-wrapper,
 .initial-content,
 #main,
@@ -39,85 +37,60 @@ body::before {
 .layout--archive,
 .page,
 .page__inner-wrap,
-.page__content,
 .archive,
 .archive__item,
 .sidebar,
-.sidebar__inner,
-.author__content,
-.author__urls-wrapper,
-.masthead,
-.page__footer {
+.sidebar__inner {
   background: transparent !important;
 }
 
-/* 2) Kill any solid backgrounds that cover the image */
-#page-wrapper,
-.initial-content,
-#main,
-.layout--home,
-.layout--single,
-.layout--archive,
-.page,
-.page__inner-wrap,
-.page__content,
-.archive,
-.archive__item,
-.sidebar,
-.sidebar__inner,
-.author__content,
-.author__urls-wrapper,
-.page__footer {
-  background: transparent !important;
-}
-
-/* 3) Make readable “glass” panels (so text isn’t on raw image) */
+/* ===================== GLASS PANELS ===================== */
+/* Nav + footer glass */
 .masthead,
 .page__footer {
-  background: rgba(10, 10, 14, 0.92) !important;
-  backdrop-filter: blur(8px);
-}
-
-/* Main content panel */
-.page__content {
-  background: rgba(10, 10, 14, 0.62) !important;
+  background: rgba(10, 10, 14, 0.94) !important;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Main content glass */
+.page__content,
+.archive__item {
+  background: rgba(10, 10, 14, 0.80) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: 18px;
   padding: 18px;
 }
 
-/* Sidebar panel */
-.sidebar__inner,
+/* Sidebar glass */
 .author__content,
-.author__urls-wrapper {
-  background: rgba(10, 10, 14, 0.62) !important;
-  backdrop-filter: blur(10px);
+.author__urls-wrapper,
+.sidebar__inner {
+  background: rgba(10, 10, 14, 0.78) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: 18px;
   padding: 14px;
 }
 
-/* 4) LINKS: make them pop */
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
+/* ===================== LINKS ===================== */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-/* Body text: clean & readable */
+/* ===================== FONTS ===================== */
 body, button, input, select, textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, -apple-system,
                BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
 }
 
-/* Headings/nav: modern */
 h1, h2, h3, h4, .site-title, .masthead__menu-item {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, "Helvetica Neue", Arial, sans-serif !important;
   letter-spacing: 0.2px;
 }
 
-/* Better PDF embed sizing */
+/* ===================== PDF EMBEDS ===================== */
 .pdf-wrap {
   max-width: 1100px;
   margin: 16px auto 40px auto;
@@ -126,19 +99,19 @@ h1, h2, h3, h4, .site-title, .masthead__menu-item {
 .pdf-embed {
   width: 100%;
   height: 85vh;
-  min-height: 720px;
+  min-height: 900px;
   border: 0;
   border-radius: 14px;
   background: rgba(0,0,0,0.2);
 }
 
-/* Buttons look nicer */
+/* Buttons */
 .btn.btn--primary {
   border-radius: 999px;
   padding: 0.6rem 1.1rem;
 }
 
-/* Fix weird mid-page layout on Outreach (wide embeds/images) */
+/* Prevent weird layout on Outreach */
 .page__content iframe,
 .page__content embed,
 .page__content object,
