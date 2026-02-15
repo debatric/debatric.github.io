@@ -1,20 +1,21 @@
 ---
-layout: archive
+layout: single
 title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: false
-redirect_from:
-  - /resume
+author_profile: true
 ---
 
-# Curriculum Vitae
+<p class="page-lead">
+  <a class="btn btn--primary" href="{{ site.baseurl }}/files/Resume.pdf" target="_blank" rel="noopener">
+    Download CV (PDF)
+  </a>
+</p>
 
-- **[Download CV (PDF)]({{ site.baseurl }}/files/Resume.pdf)**
+<div class="pdf-wrap">
+  <iframe class="pdf-embed"
+    src="{{ site.baseurl }}/files/Resume.pdf#toolbar=0&navpanes=0"
+    loading="lazy">
+  </iframe>
+</div>
 
-<iframe
-  src="{{ site.baseurl }}/files/Resume.pdf"
-  width="100%"
-  height="1000px"
-  style="border:0;">
-</iframe>
 
