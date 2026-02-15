@@ -10,9 +10,7 @@ redirect_from:
   - /dance-and-books/
   - /danceandbooks/
 ---
-## Beyond research
-
-Life outside the "mad scientist" role is powered by rhythm, curiosity, and a stubborn refusal to fit into neat boxes.
+Beyond research, life outside the "mad scientist" role is powered by rhythm, curiosity, and a stubborn refusal to fit into neat boxes.
 
 I am **trained classical Indian dancer in Manipuri**, dance began at **age 4** and never really stopped. Rooted in the **Nāṭyaśāstra** tradition, it’s part discipline, part joy—storytelling through movement, expression, and music. It is also a quiet act of rebellion: being fully scientific *and* fully artistic, without having to choose.
 
