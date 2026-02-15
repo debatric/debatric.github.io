@@ -114,3 +114,27 @@ h1, h2, h3, h4, .site-title, .masthead__menu-item {
   border-radius: 999px;
   padding: 0.6rem 1.1rem;
 }
+
+/* ========= BACKGROUND IMAGE (darkened) ========= */
+html, body {
+  min-height: 100%;
+}
+
+/* Dark overlay + background image */
+html {
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../images/image1.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Make wrappers transparent so html background shows through */
+body,
+.initial-content,
+#main,
+.page,
+.archive,
+.page__content,
+.sidebar {
+  background: transparent !important;
+}
