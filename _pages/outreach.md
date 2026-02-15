@@ -51,6 +51,7 @@ A broad-audience conversation on compact binaries, why massive systems are excit
 **Lindau Nobel Laureates Meeting — “co-Master, Opening Ceremony”**  
 Recording of my co-hosting the 73rd Lindau Meeting's opening.  
 [Watch the event](https://mediatheque.lindau-nobel.org/recordings/42157){: .btn .btn--primary .btn--large }
+
 **Swinburne University — “Dream come true…”**  
 A short profile on my pathway into astrophysics and research interests.  
 [Read the profile](https://www.swinburne.edu.au/news/2021/02/dream-come-true-for-swinburne-astrophysics-student/){: .btn .btn--primary .btn--large }
