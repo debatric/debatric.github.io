@@ -174,95 +174,49 @@ h1, h2, h3, h4, .site-title, .masthead__menu-item {
 }
 
 
-/* ===============================
-   THEME-AWARE BACKGROUND + GLASS
-   =============================== */
-
-/* 1) Defaults (LIGHT look) */
+/* Theme-aware “glass” panels */
 :root{
-  --bg-dim: 0.35; /* background dark overlay strength */
+  --panel: rgba(10, 10, 14, 0.62);
+  --panel-strong: rgba(10, 10, 14, 0.92);
+  --text: #f2f3f5;
+  --link: #43b7ff;
+}
+
+/* Light mode (if your theme uses data-theme) */
+html[data-theme="light"]{
   --panel: rgba(255, 255, 255, 0.78);
   --panel-strong: rgba(255, 255, 255, 0.90);
   --text: #101218;
   --link: #0b6aa2;
-  --border: rgba(0,0,0,0.10);
 }
 
-/* 2) DARK mode overrides
-   (we target multiple selectors because themes differ) */
-html[data-theme="dark"],
-body[data-theme="dark"],
-html.dark,
-body.dark{
-  --bg-dim: 0.72; /* make background image MUCH darker in dark mode */
-  --panel: rgba(12, 13, 18, 0.78);        /* slightly lighter than pure black */
-  --panel-strong: rgba(12, 13, 18, 0.92); /* strong header/footer */
-  --text: #f3f4f6;
-  --link: #6ad1ff;
-  --border: rgba(255,255,255,0.10);
+/* Dark mode */
+html[data-theme="dark"]{
+  --panel: rgba(10, 10, 14, 0.62);
+  --panel-strong: rgba(10, 10, 14, 0.92);
+  --text: #f2f3f5;
+  --link: #43b7ff;
 }
 
-/* 3) Full-page background image + overlay (no filter needed) */
-body{
-  background: transparent !important;
-}
-
-body::before{
-  content:"";
-  position: fixed;
-  inset: 0;
-  z-index: -9999;
-
-  background:
-    linear-gradient(rgba(0,0,0,var(--bg-dim)), rgba(0,0,0,var(--bg-dim))),
-    url("../../images/image1.png") no-repeat center center fixed;
-  background-size: cover;
-}
-
-/* 4) Make wrappers transparent so the background shows everywhere */
-#page-wrapper,
-.initial-content,
-#main,
-.layout--home,
-.layout--single,
-.layout--archive,
-.page,
-.page__inner-wrap,
-.archive{
-  background: transparent !important;
-}
-
-/* 5) Glass panels (more “designed” + consistent contrast) */
-.masthead,
-.page__footer{
+.masthead, .page__footer{
   background: var(--panel-strong) !important;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(8px);
 }
 
-.page__content{
-  background: var(--panel) !important;
-  color: var(--text) !important;
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 18px;
-}
-
+.page__content,
 .sidebar__inner,
 .author__content,
 .author__urls-wrapper{
   background: var(--panel) !important;
   color: var(--text) !important;
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
   border-radius: 18px;
-  padding: 14px;
 }
 
-/* 6) Links */
 a{ color: var(--link) !important; }
-a:hover{ text-decoration: underline; }
+
+
+
 
 
 
