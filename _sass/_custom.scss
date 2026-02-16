@@ -277,38 +277,6 @@ a:focus {
 
 
 
-/* 1) Use ONE palette for BOTH modes (prevents random blue takeover) */
-:root,
-html[data-theme="dark"] {
-  /* text */
-  --global-text-color: #f4f4f4;
-  --global-text-color-light: #d9d9d9;
-
-  /* links */
-  --global-link-color: #52adc8;            /* teal */
-  --global-link-color-hover: #7ad0e7;
-  --global-link-color-visited: #52adc8;
-
-  /* masthead (top nav) — keep it NOT blue */
-  --global-masthead-link-color: #f4f4f4;
-  --global-masthead-link-color-hover: #ff6c60; /* warm accent */
-
-  /* borders */
-  --global-border-color: rgba(255,255,255,0.12);
-}
-
-/* 2) Background brightness: day vs night (ONLY change) */
-body::before {
-  /* your existing bg setup can stay — just make sure filter is here */
-  filter: brightness(0.60) contrast(1.05);
-}
-html[data-theme="dark"] body::before {
-  filter: brightness(0.38) contrast(1.10);
-}
-
-
-
-
 
 
 
