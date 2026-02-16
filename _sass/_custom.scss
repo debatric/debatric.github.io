@@ -274,34 +274,38 @@ a:focus {
   border-radius: 18px !important;
 }
 
-/* =========================================================
-   FIX: NAV BAR INVISIBLE IN DAY/LIGHT MODE
-   (keeps your dark look, but forces the masthead to be readable)
-   ========================================================= */
+/* ============================
+   FIX: DAY NAV BAR INVISIBLE
+   Force the masthead to stay dark + readable in light/day mode
+   ============================ */
 
+/* Only affect "day/light" mode */
 html:not([data-theme="dark"]) .masthead {
-  background: rgba(10, 10, 14, 0.92) !important; /* solid enough to read */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.10);
+  background: rgba(10, 10, 14, 0.92) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-html:not([data-theme="dark"]) .masthead .site-title,
+/* Make sure title + menu items are visible */
 html:not([data-theme="dark"]) .masthead a,
-html:not([data-theme="dark"]) .masthead__menu-item a {
-  color: rgba(255,255,255,0.92) !important;
+html:not([data-theme="dark"]) .masthead__menu-item a,
+html:not([data-theme="dark"]) .site-title {
+  color: #ffffff !important;
 }
 
-html:not([data-theme="dark"]) .masthead a:hover,
-html:not([data-theme="dark"]) .masthead a:focus {
-  color: #ff8b9d !important; /* your accent */
+/* Hover/active */
+html:not([data-theme="dark"]) .masthead__menu-item a:hover,
+html:not([data-theme="dark"]) .masthead__menu-item a:focus {
+  color: #ff8b9d !important; /* your warm accent */
 }
 
-/* Active/current page highlight (works with most Minimal Mistakes setups) */
-html:not([data-theme="dark"]) .masthead__menu-item--active a,
-html:not([data-theme="dark"]) .masthead a[aria-current="page"] {
-  color: #ff8b9d !important;
+/* Current page underline/indicator (optional but nice) */
+html:not([data-theme="dark"]) .masthead__menu-item.is-active a {
+  border-bottom: 2px solid rgba(255, 139, 157, 0.85);
+  padding-bottom: 0.25rem;
 }
+
 
 
 
