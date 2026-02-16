@@ -274,12 +274,59 @@ a:focus {
   border-radius: 18px !important;
 }
 
-/* Hide the light/dark toggle button */
-.theme-toggle,
-.dark-mode-toggle,
-#theme-toggle {
-  display: none !important;
+/* =========================================================
+   FIX: LIGHT/DAY MODE NAV BAR (make it visible, not white)
+   Put at END of _sass/_custom.scss
+   ========================================================= */
+
+/* Light mode = anything that's NOT data-theme="dark" */
+html:not([data-theme="dark"]) .masthead,
+html:not([data-theme="dark"]) .greedy-nav {
+  background: rgba(10, 10, 14, 0.78) !important;   /* <- less white, glassy dark */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
 }
+
+/* Make nav text readable in light mode */
+html:not([data-theme="dark"]) .site-title,
+html:not([data-theme="dark"]) .greedy-nav a {
+  color: rgba(255,255,255,0.92) !important;
+}
+
+/* Hover + active styling */
+html:not([data-theme="dark"]) .greedy-nav a:hover {
+  color: #ff8b9d !important; /* your accent */
+}
+
+html:not([data-theme="dark"]) .greedy-nav .active > a,
+html:not([data-theme="dark"]) .greedy-nav .visible-links .active > a {
+  color: #ffffff !important;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/* Mobile hamburger/icon in light mode */
+html:not([data-theme="dark"]) .greedy-nav__toggle {
+  color: rgba(255,255,255,0.92) !important;
+}
+html:not([data-theme="dark"]) .navicon,
+html:not([data-theme="dark"]) .navicon:before,
+html:not([data-theme="dark"]) .navicon:after {
+  background: rgba(255,255,255,0.92) !important;
+}
+
+/* OPTIONAL: brighter background image in DAY mode only */
+html:not([data-theme="dark"]) body::before {
+  filter: brightness(0.78) contrast(1.05); /* <- increase brightness for day */
+}
+
+/* Keep your darker background in NIGHT mode */
+html[data-theme="dark"] body::before {
+  filter: brightness(0.55) contrast(1.05);
+}
+
 
 
 
