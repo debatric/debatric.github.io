@@ -282,11 +282,11 @@ a:focus {
 
 /* 1) Brighter background for BOTH (day a bit brighter) */
 body::before{
-  filter: brightness(0.85) contrast(1.05) saturate(1.05) !important;
+  filter: brightness(0.8) contrast(1.02) saturate(1.03) !important;
 }
 html[data-theme="light"] body::before,
 html:not([data-theme="dark"]) body::before{
-  filter: brightness(1.00) contrast(1.06) saturate(1.06) !important;
+  filter: brightness(0.95) contrast(1.05) saturate(1.05) !important;
 }
 
 /* 2) Make "light" mode use dark-mode CSS variables (so text/links match night) */
