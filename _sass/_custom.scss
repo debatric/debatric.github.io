@@ -286,7 +286,7 @@ body::before{
 }
 html[data-theme="light"] body::before,
 html:not([data-theme="dark"]) body::before{
-  filter: brightness(1.05) contrast(1.06) saturate(1.08) !important;
+  filter: brightness(1.00) contrast(1.06) saturate(1.06) !important;
 }
 
 /* 2) Make "light" mode use dark-mode CSS variables (so text/links match night) */
