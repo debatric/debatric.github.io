@@ -274,37 +274,13 @@ a:focus {
   border-radius: 18px !important;
 }
 
-/* ============================
-   FIX: DAY NAV BAR INVISIBLE
-   Force the masthead to stay dark + readable in light/day mode
-   ============================ */
-
-/* Only affect "day/light" mode */
-html:not([data-theme="dark"]) .masthead {
-  background: rgba(10, 10, 14, 0.92) !important;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+/* Hide the light/dark toggle button */
+.theme-toggle,
+.dark-mode-toggle,
+#theme-toggle {
+  display: none !important;
 }
 
-/* Make sure title + menu items are visible */
-html:not([data-theme="dark"]) .masthead a,
-html:not([data-theme="dark"]) .masthead__menu-item a,
-html:not([data-theme="dark"]) .site-title {
-  color: #ffffff !important;
-}
-
-/* Hover/active */
-html:not([data-theme="dark"]) .masthead__menu-item a:hover,
-html:not([data-theme="dark"]) .masthead__menu-item a:focus {
-  color: #ff8b9d !important; /* your warm accent */
-}
-
-/* Current page underline/indicator (optional but nice) */
-html:not([data-theme="dark"]) .masthead__menu-item.is-active a {
-  border-bottom: 2px solid rgba(255, 139, 157, 0.85);
-  padding-bottom: 0.25rem;
-}
 
 
 
