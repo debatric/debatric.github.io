@@ -274,3 +274,81 @@ a:focus {
   border-radius: 18px !important;
 }
 
+/* =========================================================
+   FIX: Light/day mode should MATCH night mode (UI + contrast)
+   + Brighten background in both modes
+   Paste at bottom of _sass/_custom.scss
+   ========================================================= */
+
+/* 1) Brighter background for BOTH (day a bit brighter) */
+body::before{
+  filter: brightness(0.85) contrast(1.05) saturate(1.05) !important;
+}
+html[data-theme="light"] body::before,
+html:not([data-theme="dark"]) body::before{
+  filter: brightness(1.05) contrast(1.06) saturate(1.08) !important;
+}
+
+/* 2) Make "light" mode use dark-mode CSS variables (so text/links match night) */
+html[data-theme="light"],
+html:not([data-theme="dark"]){
+  --global-bg-color: #474747;
+  --global-footer-bg-color: #474747;
+
+  --global-text-color: rgba(255,255,255,0.92);
+  --global-text-color-light: rgba(255,255,255,0.72);
+
+  --global-masthead-link-color: rgba(255,255,255,0.92);
+  --global-masthead-link-color-hover: #0ea1c5;
+
+  --global-link-color: #0ea1c5;
+  --global-link-color-hover: #ffffff;
+  --global-link-color-visited: rgba(255,255,255,0.85);
+
+  --global-border-color: rgba(255,255,255,0.18);
+  --global-dark-border-color: rgba(255,255,255,0.14);
+  --global-thead-color: rgba(255,255,255,0.08);
+}
+
+/* 3) NAV FIX: stop the white bar + keep nav text readable in "light" */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links{
+  background: rgba(10,10,14,0.94) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.greedy-nav a,
+.masthead a,
+.masthead__menu-item a{
+  color: rgba(245,245,250,0.92) !important;
+  text-decoration: none !important;
+}
+.greedy-nav a:hover,
+.masthead a:hover,
+.masthead__menu-item a:hover{
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/* Hamburger icon visibility */
+.greedy-nav__toggle{
+  color: rgba(245,245,250,0.92) !important;
+}
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon::before,
+.greedy-nav__toggle .navicon::after{
+  background: rgba(245,245,250,0.92) !important;
+}
+
+/* Extra safety: force readable text on your glass panels in "light" */
+html[data-theme="light"] body,
+html:not([data-theme="dark"]) body,
+html[data-theme="light"] .page__content,
+html:not([data-theme="dark"]) .page__content{
+  color: rgba(255,255,255,0.92) !important;
+}
