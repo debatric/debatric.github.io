@@ -22,6 +22,8 @@ I am committed to making astrophysics accessible—especially the story of how w
 
 ## Leadership, teaching & impact
 
+**Recognition:** finalist, **Emerging Leader Impact Award**, [Swinburne Alumni Impact Awards 2026](https://www.swinburne.edu.au/news/2026/08/meet-Swinburnes-2026-alumni-impact-awards-finalists)
+
 ### Teaching & mentorship
 I have tutored undergraduate physics and astronomy courses and consistently received highly positive feedback. I care deeply about fostering an engaging, supportive, and inclusive learning environment—especially for students who may be new to research culture or under-represented in STEM.
 
