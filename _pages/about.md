@@ -14,4 +14,9 @@ Curiosity and adventure are at the core of who I am. I care deeply about challen
 
 Outside of research, you’ll usually find me **dancing**, **reading novels**, or **travelling**.
 
+## News
+
+- **Aug 2026:** Named a finalist for the **Emerging Leader Impact Award** in Swinburne University of Technology's [2026 Alumni Impact Awards](https://www.swinburne.edu.au/news/2026/08/meet-Swinburnes-2026-alumni-impact-awards-finalists).
+- **Oct 2026:** Joined the [Department of Physics and Astronomy at Texas Tech University](https://www.depts.ttu.edu/phas/directory/debatri_chattopadhyay/index.php) as an Assistant Professor.
+
 
