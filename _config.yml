@@ -15,7 +15,7 @@ name: "Debatri Chattopadhyay"
 description: "Theoretical & computational astrophysicist | gravitational waves, compact binaries, pulsars"
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 
 
 # site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
@@ -37,8 +37,8 @@ author:
   name             : "Debatri"
   pronouns         : "she/her"  
   bio              : "Astrophysicist studying black holes and neutron stars, dancing around the globe in spare time!"
-  location         : "Chicago"
-  employer         : "Northwestern University"
+  location         : "Texas"
+  employer         : "Texas Tech University"
   uri              : # URL
   email            : "debatrich@gmail.com" 
 
